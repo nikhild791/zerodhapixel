@@ -3,7 +3,7 @@ import Button from "./ui/Button"
 const Landing = () => {
   return (
     <section className="landing-section relative  flex justify-center items-center w-full ">
-        <div className="pt-[100px]">
+        <div className="pt-[140px]">
             <div>
                 <img className="max-h-[45vh] mb-[60px]" src="/src/assets/images/landing.png" alt="Zerodha dhink dhin dha" />
             </div>
