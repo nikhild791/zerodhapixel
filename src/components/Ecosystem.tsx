@@ -1,4 +1,3 @@
-import React from "react";
 import RightArrow from "../assets/icons/RightArrow";
 
 const Ecosystem = () => {
