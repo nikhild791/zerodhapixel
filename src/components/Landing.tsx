@@ -1,9 +1,9 @@
 import Button from "./ui/Button"
 
-const Hero = () => {
+const Landing = () => {
   return (
-    <div className="landing-section absolute  flex justify-center items-center w-full">
-        <div className="mt-16">
+    <section className="landing-section relative  flex justify-center items-center w-full ">
+        <div className="pt-[100px]">
             <div>
                 <img className="max-h-[45vh] mb-[60px]" src="/src/assets/images/landing.png" alt="Zerodha dhink dhin dha" />
             </div>
@@ -15,8 +15,8 @@ const Hero = () => {
                 <Button width="1/3" text="Sign up for free"/>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 
-export default Hero
+export default Landing

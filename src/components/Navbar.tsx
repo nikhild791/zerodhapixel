@@ -1,8 +1,8 @@
-import Logo from "../assets/images/icons/Logo"
+import Logo from "../assets/icons/Logo"
 
 const Navbar = () => {
   return (
-    <div className="w-screen flex justify-center items-center fixed shadow-sm h-[67px]">
+    <div className="w-screen flex justify-center items-center fixed shadow-sm h-[67px] z-10 bg-white">
         <div className="w-[1100px] flex justify-between mx-auto items-center">
         <div className="top-5">
             <Logo height="55" width="130" />
