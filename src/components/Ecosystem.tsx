@@ -1,4 +1,6 @@
 import RightArrow from "../assets/icons/RightArrow";
+import EcosystemImage from "/src/assets/images/ecosystem.png"
+import PressImage from "/src/assets/images/press-logos.png"
 
 const Ecosystem = () => {
   return (
@@ -29,13 +31,13 @@ const Ecosystem = () => {
             <div className="why-us-section">
               <h3 className="text-xl font-medium leading-6 text-[#424242]">Do better with money</h3>
               <p className="mt-1 mb-8 text-[#666] leading-7">
-                With initiatives like <a href="https://support.zerodha.com/category/trading-and-markets/kite-features/nudges/articles/what-is-nudge" target="_blank">Nudge</a> and <a href="https://support.zerodha.com/category/console/profile/killswitch/articles/what-is-the-kill-switch" target="_blank">Kill Switch</a>, we don't just facilitate transactions, but actively help you do better with your money.
+                With initiatives like <a href="#" target="_blank">Nudge</a> and <a href="#" >Kill Switch</a>, we don't just facilitate transactions, but actively help you do better with your money.
               </p>
           </div>
         </div>
         <div className="w-6/12">
           <div className="mt-16 flex justify-center">
-          <img src="/src/assets/images/ecosystem.png" alt="The Zerodha Universe" />
+          <img src={EcosystemImage} alt="The Zerodha Universe" />
           </div>
           <div className="text-[#387ed1] flex flex-row justify-evenly text-center p-4 leading-6 mb-4">
             <a href="#" className="flex flex-row items-center gap-2">Explore our products <div ><RightArrow size="sm"/></div></a>
@@ -44,7 +46,7 @@ const Ecosystem = () => {
         </div>
       </div>
       <div className="mt-14">
-        <img className="mx-auto" src="/src/assets/images/press-logos.png" alt="" />
+        <img className="mx-auto" src={PressImage} alt="" />
       </div>
     </section>
   );

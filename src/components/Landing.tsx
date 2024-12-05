@@ -1,11 +1,12 @@
 import Button from "./ui/Button"
+import Image from "../assets/images/landing.png"
 
 const Landing = () => {
   return (
     <section className="landing-section relative  flex justify-center items-center w-full ">
         <div className="pt-[140px]">
             <div>
-                <img className="max-h-[45vh] mb-[60px]" src="/src/assets/images/landing.png" alt="Zerodha dhink dhin dha" />
+                <img className="max-h-[45vh] mb-[60px]" src={Image} alt="Zerodha dhink dhin dha" />
             </div>
             <div className="mb-10">
                 <p className="font-medium text-5xl leading-normal text-center">Invest in everything</p>

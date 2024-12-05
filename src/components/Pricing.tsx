@@ -1,6 +1,7 @@
 import OthersTradersIcon from "../assets/icons/OthersTradersIcon";
 import PricingIcon from "../assets/icons/PricingIcon";
 import RightArrow from "../assets/icons/RightArrow";
+
 const Pricing = () => {
   return (
     <section className="relative">

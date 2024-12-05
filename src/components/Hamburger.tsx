@@ -2,6 +2,9 @@ import Coin from "../assets/images/hamburger/Coin"
 import Console from "../assets/images/hamburger/Console"
 import KiteConnect from "../assets/images/hamburger/KiteConnect"
 import KiteLogo from "../assets/images/hamburger/KiteLogo"
+import Varsity from "/src/assets/images/hamburger/varsity.png"
+import Tnqa from "/src/assets/images/hamburger/tqna.png"
+
 
 const Hamburger = () => {
   return (
@@ -54,11 +57,11 @@ const Hamburger = () => {
           <h2 className="font-medium text-base text-[#424242] mb-4 leading-8 relative left-5">Education</h2>
           <div className="flex flex-row justify-center">
             <div className="mr-10">
-              <img src="/src/assets/images/hamburger/varsity.png" className="mb-[10px]" alt="" />
+              <img src={Varsity} className="mb-[10px]" alt="" />
               <p className="text-sm mb-[5px] text-[#666]">Varsity</p>
             </div>
             <div className="mr-10">
-              <img src="/src/assets/images/hamburger/tqna.png" className="mb-[10px]" alt="" />
+              <img src={Tnqa} className="mb-[10px]" alt="" />
               <p className="text-sm mb-[5px] text-[#666] ">Trading Q&A</p>
             </div>
           </div>
