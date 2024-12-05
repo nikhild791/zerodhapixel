@@ -9,7 +9,7 @@ const Landing = () => {
             </div>
             <div className="mb-10">
                 <p className="font-medium text-5xl leading-normal text-center">Invest in everything</p>
-                <p className="font-normal text-xl leading-9 text-center tracking-wider">Online platform to invest in stocks, derivaties, mutual funds, etfs, bonds and more.</p>
+                <p className="font-normal text-xl leading-9 text-center tracking-wide">Online platform to invest in stocks, derivaties, mutual funds, ETFs, bonds and more.</p>
             </div>
             <div className="flex items-center w justify-center mt-6">
                 <Button width="1/3" text="Sign up for free"/>

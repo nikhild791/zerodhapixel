@@ -4,6 +4,7 @@
   box-sizing: border-box;
   color: #424242;
   flex-wrap: row wrap;
+  line-height: 1.7;
 }
 
 section {
